@@ -628,7 +628,7 @@ footer {
     transition: transform 1s ease-out;
 }
 
-.close-btn{
+.close-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -640,14 +640,22 @@ footer {
     cursor: pointer;
 }
 
-.is-hidden{
+.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
 }
 
-.close-modal-btn{
+.close-modal-btn {
     position:absolute;
     left:9px;
     top:9px;
+}
+
+.modal-form-header {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 1.17;
+    font-size: 20px;
+    letter-spacing: 0.03em;
 }
