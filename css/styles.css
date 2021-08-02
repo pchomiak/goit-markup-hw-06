@@ -652,10 +652,15 @@ footer {
     top:9px;
 }
 
-.modal-form-header {
+.modal_form-header {
     text-align: center;
     margin-top: 40px;
     line-height: 1.17;
     font-size: 20px;
     letter-spacing: 0.03em;
+}
+
+.modal_form {
+    display: flex;
+    flex-direction: column;
 }
