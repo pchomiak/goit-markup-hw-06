@@ -364,21 +364,48 @@
         </button>
         <h2 class="modal_form-header">Zostaw swoje dane w formularzu poniżej</h2>
 <form action="#" class="modal_form">
+
     <label for="" class="modal_form-field">
         Imie
-        <input type="text" name="use_name" class="modal_form-input">
+        <span class="modal_form-input-wrapper">
+            <input type="text" name="use_name" class="modal_form-input">
+            <span class="modal_form-icon">
+                <svg class="" >
+                    <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+            </span>
+        </span>
+        
     </label>
+
     <label for="" class="modal_form-field">
         Telefon
-        <input type="tel" name="phone" class="modal_form-input">
+        <span class="modal_form-input-wrapper"><input type="tel" name="phone" class="modal_form-input"></span>
+        <span class="modal_form-icon phone-black">
+            <svg class="" >
+                <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+        </span>
+        
     </label>
+
     <label for="" class="modal_form-field">
         Email
-        <input type="email" name="phone" class="modal_form-input">
+        <span class="modal_form-input-wrapper">
+            <input type="email" name="email" class="modal_form-input">
+        </span>
+        <span class="modal_form-icon email-black">
+            <svg class="" >
+                <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+        </span>
+        
     </label>
+    
     <label for="" class="modal_form-field">
         Komentarz
-        <textarea name="user-message" placeholder="Wprowadź tekst" class="modal_form-message id="" cols="30" rows="10"></textarea>
+        <span class="modal_form-input-wrapper"><textarea name="user-message" placeholder="Wprowadź tekst" class="modal_form-message" id=""></textarea></span>
+        
     </label>
 
     <label for="user-policy" class="modal_form-field">
